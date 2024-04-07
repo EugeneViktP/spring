@@ -13,8 +13,6 @@ public class Person {
     public Person() {
         System.out.println("Person bean is created");
     }
-
-
     // pet -> setPet
     public void setPet(Pet pet) {
         System.out.println("Class Person: set pet");
@@ -36,12 +34,12 @@ public class Person {
     }
 
     public void setAge(int age) {
+        System.out.println("Class Person: set age");
         this.age = age;
     }
 
     public void callYourPet() {
         System.out.println("Hello, my lovely Pet!");
         pet.say();
-
     }
 }
