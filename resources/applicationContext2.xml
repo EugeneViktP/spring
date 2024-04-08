@@ -9,7 +9,7 @@
 
     <bean id = "myPet"
           class = "com.popov.spring.spring_introduction.Dog"
-          scope="singleton">
+          scope="prototype">
     </bean>
 
 

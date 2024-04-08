@@ -12,10 +12,10 @@ public class Test4 {
         yourDog.setName("Strelka");
         System.out.println(myDog.getName());
         System.out.println(yourDog.getName());
-//        System.out.println("Variables are referring to the same object: " +
-//        (myDog == yourDog));
-//        System.out.println(myDog);
-//        System.out.println(yourDog);
+        System.out.println("Variables are referring to the same object: " +
+        (myDog == yourDog));
+        System.out.println(myDog);
+        System.out.println(yourDog);
 
         context.close();
     }
