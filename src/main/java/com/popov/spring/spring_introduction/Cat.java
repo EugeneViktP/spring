@@ -2,7 +2,7 @@ package com.popov.spring.spring_introduction;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component ("catBean")
 public class Cat implements Pet{
     public Cat() {
         System.out.println("Cat bean is created");
