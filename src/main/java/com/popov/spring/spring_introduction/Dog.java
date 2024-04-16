@@ -13,7 +13,7 @@ public class Dog implements Pet {
     @Override
     public void say() {
 
-        System.out.println("Bow-Wow");
+        System.out.println("Bow-Bow");
     }
     protected void init() {
         System.out.println("Class Dog: init method");
